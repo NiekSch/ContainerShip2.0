@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContainerShip2.0", "ContainerShip2.0\ContainerShip2.0.csproj", "{AAC61390-1D27-428C-8FB6-56BBB52864CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AAC61390-1D27-428C-8FB6-56BBB52864CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAC61390-1D27-428C-8FB6-56BBB52864CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAC61390-1D27-428C-8FB6-56BBB52864CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAC61390-1D27-428C-8FB6-56BBB52864CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C1C51194-ED9D-45E2-A71F-6C12779802E6}
+	EndGlobalSection
+EndGlobal
