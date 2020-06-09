@@ -12,10 +12,13 @@ namespace ContainerShip2._0
 
         public void PlaceContainers(Container[] containers, int shipNr)
         {
-            containers = OrderContainer(containers);
-            if (Ships.Count >= shipNr)
+            if (ContainersWithinWeightLimit(containers))
             {
-                Ships[shipNr - 1].PlaceContainers(containers);
+                containers = OrderContainer(containers);
+                if (Ships.Count >= shipNr)
+                {
+                    Ships[shipNr - 1].PlaceContainers(containers);
+                }
             }
         }
 
@@ -32,6 +35,25 @@ namespace ContainerShip2._0
         private Container[] OrderContainer(Container[] containers)
         {
             return containers.OrderByDescending(x => x.Weight).ToArray();
+        }
+
+        private bool ContainersWithinWeightLimit(Container[] containers)
+        {
+            bool withinLimits = true;
+            foreach (var container in containers)
+            {
+                if (!container.WeightIsWithinBoundarys())
+                {
+                    withinLimits = false;
+                }
+            }
+
+            if (withinLimits)
+            {
+                return true;
+            }
+
+            return false;
         }
     }
 }

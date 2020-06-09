@@ -1,0 +1,7 @@
+C:\Users\schee\Documents\GitHub\ContainerShip2.0\ContainerShip2.0\bin\Debug\ContainerShip2.0.exe.config
+C:\Users\schee\Documents\GitHub\ContainerShip2.0\ContainerShip2.0\bin\Debug\ContainerShip2.0.exe
+C:\Users\schee\Documents\GitHub\ContainerShip2.0\ContainerShip2.0\bin\Debug\ContainerShip2.0.pdb
+C:\Users\schee\Documents\GitHub\ContainerShip2.0\ContainerShip2.0\obj\Debug\ContainerShip2.0.csprojAssemblyReference.cache
+C:\Users\schee\Documents\GitHub\ContainerShip2.0\ContainerShip2.0\obj\Debug\ContainerShip2.0.csproj.CoreCompileInputs.cache
+C:\Users\schee\Documents\GitHub\ContainerShip2.0\ContainerShip2.0\obj\Debug\ContainerShip2.0.exe
+C:\Users\schee\Documents\GitHub\ContainerShip2.0\ContainerShip2.0\obj\Debug\ContainerShip2.0.pdb

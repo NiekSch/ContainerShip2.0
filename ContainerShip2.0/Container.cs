@@ -17,5 +17,21 @@ namespace ContainerShip2._0
             NormalCooled = 3,
             ValuableCooled = 4
         }
+
+        public Container(ContainerType type, int weight)
+        {
+            Weight = weight;
+            Type = type;
+        }
+
+        public bool WeightIsWithinBoundarys()
+        {
+            if (Enumerable.Range(4,27).Contains(Weight))
+            {
+                return true;
+            }
+
+            return false;
+        }
     }
 }
